@@ -24,4 +24,4 @@ register_tortoise(app, db_url=f'mysql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PO
 
 
 if __name__ == "__main__":
-    app.run(port=8000, debug=DEBUG)
+    app.run(host='0.0.0.0', port=8000, debug=DEBUG)
