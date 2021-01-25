@@ -10,6 +10,8 @@ env.read_env()
 
 # Read environment variables
 DEBUG = env.bool('DEBUG')
+SECRET_KEY = env.str('SECRET_KEY')
+
 DB_HOST = env.str('DB_HOST')
 DB_PORT = env.str('DB_PORT')
 DB_NAME = env.str('DB_NAME')
