@@ -23,7 +23,7 @@ python-dotenv==0.15.0
 python-rapidjson==1.0
 pytz==2020.5
 rfc3986==1.4.0
-sanic==20.12.1
+sanic==20.12.7
 six==1.15.0
 sniffio==1.2.0
 toml==0.10.2
